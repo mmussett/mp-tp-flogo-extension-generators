@@ -1,9 +1,9 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: "mp-entry-tp-flogo-activity-extension-generator"
-  title: "Flogo Actvitity Extension Generator"
-  description: "This template generates flogo activity extensions."
+  name: "mp-entry-tp-flogo-extension-generator"
+  title: "Flogo Extension Generator"
+  description: "This template generates flogo extensions."
   backstage.io/techdocs-ref: dir:.
   tibco.developer.hub/marketplace:
     isNew: true
@@ -33,11 +33,11 @@ spec:
         description:
           type: 'null' # Needs to be quoted
           description: |
-            ## Install  Flogo Actvitity Extension Generator into your TIBCO Developer Hub
+            ## Install  Flogo Extension Generator into your TIBCO Developer Hub
             
-            **ID:** mp-entry-tp-flogo-activity-extension-generator
+            **ID:** mp-entry-tp-flogo-extension-generator
             
-            **Description:** This template generates flogo activity extensions.
+            **Description:** This template generates flogo  extensions.
           
             Each item made available to you in the TIBCO® Developer Hub Marketplace is subject to its own individual license. You are responsible for reviewing the specific license terms that apply to each item that you access or use. Cloud Software Group, Inc. and its affiliates: (1) do not make any representation, promises, or guarantees about these items; and (2) are making these items available to you "AS IS," without any warranties or indemnities.
             This item is subject to the following [license](https://github.com/TIBCOSoftware/tibco-developer-hub/blob/main/LICENSE.TXT).
